@@ -24,11 +24,11 @@ const Room = () => {
       sharedLinks: [
         {
           name: "Copy Link",
-          url: `http://localhost:3000/room/${roomID}`,
+          url: `https://signify-zego-cloud.vercel.app/room/${roomID}`,
         },
       ],
       scenario: {
-        mode: ZegoUIKitPrebuilt.OneONoneCall,
+        mode: ZegoUIKitPrebuilt.GroupCall,
       },
     });
   };
