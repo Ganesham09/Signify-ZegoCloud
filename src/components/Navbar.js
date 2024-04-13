@@ -4,7 +4,6 @@ const Navbar = () => {
   return (
     <div className="bg-black/90">
       <div className=" h-[5rem] flex items-center justify-between px-4 md:max-w-[90vw] mx-auto">
-        
         <div className="flex items-center">
           <div className="flex w-[3rem] h-[3rem] bg-white rounded-full">
             <img src={logo} alt="" className="object-cover " />
@@ -14,12 +13,11 @@ const Navbar = () => {
           </div>
         </div>
 
-        
         <div className="">
           <ul className="text-white font-bold flex items-center gap-4 cursor-pointer">
             <li>About Us</li>
             <li>Product</li>
-            <li>Blogs</li>
+            <li>News</li>
           </ul>
         </div>
       </div>

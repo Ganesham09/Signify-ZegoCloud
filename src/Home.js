@@ -59,7 +59,7 @@ const Home = () => {
               type="submit"
               className=" bg-blue-500 hover:bg-blue-400 duration-100 ease-out font-bold w-[5rem] md:w-[7rem] rounded-full py-[5px] md:py-[7px] mt-2 md:mt-4 "
             >
-              Go
+              Gone
             </button>
           </form>
         </div>
